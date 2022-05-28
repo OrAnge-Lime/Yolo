@@ -2,15 +2,11 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QTableWidgetItem
 import sys
 import os
-import psycopg2 as pg
 import matplotlib.pyplot as plt
-import json
 from PIL import Image
 from PyQt5.QtGui import QIcon, QPixmap, QImage
 import shutil
 from PIL import Image
-
-
 import MainWin
 from yolov5.detect import run
 

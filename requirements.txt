@@ -1,0 +1,11 @@
+PyQT5
+Pillow
+matplotlib
+torch
+opencv-python
+pandas
+requests
+PyYAML
+tqdm
+torchvision
+seaborn
