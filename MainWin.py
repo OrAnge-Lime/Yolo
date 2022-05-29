@@ -21,12 +21,12 @@ class Ui_MainWindow(object):
         MainWindow.setAutoFillBackground(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(1240, 60, 241, 41))
+        #self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        #self.lineEdit.setGeometry(QtCore.QRect(1240, 60, 241, 41))
         font = QtGui.QFont()
         font.setPointSize(16)
-        self.lineEdit.setFont(font)
-        self.lineEdit.setObjectName("lineEdit")
+        #self.lineEdit.setFont(font)
+        #self.lineEdit.setObjectName("lineEdit")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(1240, 110, 241, 41))
         font = QtGui.QFont()
@@ -72,9 +72,9 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.lineEdit.setText(_translate("MainWindow", "11"))
-        self.pushButton.setText(_translate("MainWindow", "Count"))
-        self.label_2.setText(_translate("MainWindow", "Img name"))
+        #self.lineEdit.setText(_translate("MainWindow", "11"))
+        self.pushButton.setText(_translate("MainWindow", "Выбрать"))
+        self.label_2.setText(_translate("MainWindow", "Выберете папку\n с фотографиями"))
 
 
 if __name__ == "__main__":
